@@ -25,6 +25,7 @@
     "grunt-browserify": "~3.2.0"
   },
   "scripts": {
+    "prepublish": "grunt --verbose",
     "test": "echo \"Error: no test specified\" && exit 0"
   }
 }
