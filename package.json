@@ -1,0 +1,19 @@
+{
+  "name": "travis-test",
+  "version": "0.0.1",
+  "description": "Travis deploy test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiguelCastillo/travis-test.git"
+  },
+  "author": "Miguel Castillo <manchagnu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiguelCastillo/travis-test/issues"
+  },
+  "homepage": "https://github.com/MiguelCastillo/travis-test"
+}
