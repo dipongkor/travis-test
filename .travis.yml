@@ -1,7 +1,10 @@
 language: node_js
 
+before_script:
+  - npm install -g grunt-cli
+
 install:
-  - "npm install"
+  - npm install
 
 after_success:
   - "./deploy/publish_azure.js"
