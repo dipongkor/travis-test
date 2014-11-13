@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/MiguelCastillo/travis-test/issues"
   },
-  "homepage": "https://github.com/MiguelCastillo/travis-test"
+  "homepage": "https://github.com/MiguelCastillo/travis-test",
+  "dependencies": {
+    "process": "~0.9.0"
+  },
+  "devDependencies": {
+    "browserify": "~6.3.2",
+    "grunt": "~0.4.5",
+    "grunt-browserify": "~3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  }
 }

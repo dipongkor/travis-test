@@ -1,3 +1,7 @@
+# Exclude build artifacts
+browser.js
+version.js
+
 # Logs
 logs
 *.log
