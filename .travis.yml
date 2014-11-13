@@ -2,3 +2,6 @@ language: node_js
 
 install:
   - "npm install"
+
+after_success:
+  - "./deploy/publish_azure.js"
